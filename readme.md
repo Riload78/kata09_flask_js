@@ -13,8 +13,9 @@ Aplicacion web para simular ingresos gastos para simular Single page application
 
 # Ejecución
 Ejecuta en el directorio de la aplicación
-    ````
-    flask run
 
-    `````
+`````
+flask run 
+
+`````
 
