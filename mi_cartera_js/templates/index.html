@@ -1,0 +1,30 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/pico.css')}}">
+        <script src="{{url_for('static', filename='js/app.js')}}"></script>
+    </head>
+
+    <body>
+
+        <h1>Pagina de inicio</h1>
+        <div class="container">
+
+            <form action="">
+                <div>
+                    <label for="text">Introduce un texto</label>
+                    <input type="text" name="texto" id="texto">
+                </div>
+                <div>
+                    <button id="btnSubmit">Enviar</button>
+                </div>
+            </form>
+            <section id="parrafos"></section>
+        </div>
+
+    </body>
+
+</html>
